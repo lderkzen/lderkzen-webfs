@@ -1,0 +1,162 @@
+#resource-container > div {
+    min-height: 400px;
+    max-height: 90vh;
+}
+
+.resource {
+    padding-top: 1px;
+}
+
+.resource span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+form input, form select, form small {
+    line-height: 1.2;
+    font-size: 13.33px;
+}
+
+.btn-resource {
+    line-height: 1.2;
+    border-radius: 2px;
+    text-decoration: none;
+    font-family: "Times New Roman", serif;
+    font-size: 13.33px;
+    padding: 1px 6px;
+}
+
+.btn-resource:disabled, .create-anchor:disabled {
+    pointer-events: none;
+}
+
+.btn-blue {
+    background: #deebf7;
+    border: 1px solid #0d6efd;
+    color: #0d6efd;
+}
+
+.btn-blue:hover {
+    color: #0a58ca;
+}
+
+.btn-red {
+    background: #f7c9c6;
+    border: 1px solid #ff3519;
+    color: #ff3519;
+}
+
+.btn-red:hover {
+    color: #c9331e;
+}
+
+.create-anchor {
+    font-family: "Times New Roman", serif;
+    font-size: 13.33px;
+    text-decoration: none;
+    color: #28a745;
+}
+
+.create-anchor:hover {
+    color: #199a4a;
+}
+
+.resource-col-1 {
+    flex: 0 0 auto;
+    width: 5%;
+}
+
+.resource-col-2 {
+    flex: 0 0 auto;
+    width: 10%;
+}
+
+.resource-col-3 {
+    flex: 0 0 auto;
+    width: 15%;
+}
+
+.resource-col-4 {
+    flex: 0 0 auto;
+    width: 20%;
+}
+
+.resource-col-5 {
+    flex: 0 0 auto;
+    width: 25%;
+}
+
+.resource-col-6 {
+    flex: 0 0 auto;
+    width: 30%;
+}
+
+.resource-col-7 {
+    flex: 0 0 auto;
+    width: 35%;
+}
+
+.resource-col-8 {
+    flex: 0 0 auto;
+    width: 40%;
+}
+
+.resource-col-9 {
+    flex: 0 0 auto;
+    width: 45%;
+}
+
+.resource-col-10 {
+    flex: 0 0 auto;
+    width: 50%;
+}
+
+.resource-col-11 {
+    flex: 0 0 auto;
+    width: 55%;
+}
+
+.resource-col-12 {
+    flex: 0 0 auto;
+    width: 60%;
+}
+
+.resource-col-13 {
+    flex: 0 0 auto;
+    width: 65%;
+}
+
+.resource-col-14 {
+    flex: 0 0 auto;
+    width: 70%;
+}
+
+.resource-col-15 {
+    flex: 0 0 auto;
+    width: 75%;
+}
+
+.resource-col-16 {
+    flex: 0 0 auto;
+    width: 80%;
+}
+
+.resource-col-17 {
+    flex: 0 0 auto;
+    width: 85%;
+}
+
+.resource-col-18 {
+    flex: 0 0 auto;
+    width: 90%;
+}
+
+.resource-col-19 {
+    flex: 0 0 auto;
+    width: 95%;
+}
+
+.resource-col-20 {
+    flex: 0 0 auto;
+    width: 100%;
+}

@@ -1,0 +1,93 @@
+p, a, span, h1, h2, h3 {
+    font-family: "Times New Roman", serif;
+    color: #ffff00;
+}
+
+.content-section {
+    border: 1px solid black;
+    background: #fffaf0;
+}
+
+.content-section p, .content-section span, .content-section h1, .content-section h2, .content-section h3 {
+    font-family: "Times New Roman", serif;
+    font-weight: bold;
+    color: black;
+}
+
+.content-section p, .content-section span {
+    font-size: 1.17em;
+    line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffff00;
+}
+
+body {
+    background: #8b0000;
+}
+
+.bg-red {
+    background: #ff0000;
+}
+
+.dragon-small {
+    max-height: 50px;
+}
+
+.dragon-large {
+    max-height: 200px;
+}
+
+.font-styled {
+    font-family: Chinese_Takeaway, serif;
+}
+
+header .col {
+    max-width: 33%;
+}
+
+.btn-nav {
+    background: url('../../images/menu_bg_gradient.png');
+    border-radius: 0;
+    font-size: 20px;
+    color: white;
+    line-height: 1.2;
+}
+
+.btn-nav:hover {
+    color: white;
+}
+
+.company-name {
+    font-size: 50px;
+}
+
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.marquee a {
+    animation: slide 20s linear infinite;
+}
+
+@font-face {
+    font-family: Chinese_Takeaway;
+    src:
+        url('../../fonts/chinesetakeaway-webfont.woff2') format('woff2');
+        url('../fonts/chinesetakeaway-webfont.woff') format('woff');
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(90%);
+    }
+    100% {
+        transform: translateX(-110%);
+    }
+}

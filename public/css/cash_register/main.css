@@ -1,0 +1,108 @@
+#cash_register:nth-child(2) {
+    font-family: "Times New Roman", serif;
+}
+
+#navbar {
+    border-bottom: 3px solid #0066ff;
+    font-size: 18px;
+}
+
+#navbar button {
+    font-family: "Times New Roman", serif;
+    color: #0d6efd;
+}
+
+#navbar button, .btn-nav {
+    min-width: 180px;
+    width: 180px;
+}
+
+.btn-nav, #filter-box button {
+    background: #deebf7;
+    border-radius: 10px;
+    border: 1px solid #0066ff;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+    color: #0d6efd;
+}
+
+.goodpay-logo {
+    max-height: 80px;
+}
+
+#modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: rgba(0,0,0,0.4);
+}
+
+#modal > div > div > div {
+    background: #fefefe;
+}
+
+#modal > div > div > div > span:nth-child(2) {
+     cursor: pointer;
+}
+
+.text-tnr {
+    font-family: "Times New Roman", serif;
+}
+
+.outlined {
+    border: 1px solid #0066ff;
+    border-radius: 3px;
+}
+
+#resource-container > div {
+     overflow-y: scroll;
+}
+
+#resource-table-md {
+    width: 60%;
+    font: 16px "Times New Roman", serif;
+}
+
+#resource-table-lg {
+    width: 80%;
+    font: 16px "Times New Roman", serif;
+}
+
+#resource-table-xl {
+     width: 100%;
+     font: 16px "Times New Roman", serif;
+}
+
+.bx-blue {
+    border-left: 1px solid #0066ff;
+    border-right: 1px solid #0066ff;
+}
+
+.bb-blue {
+    border-bottom: 2px solid #0066ff;
+}
+
+.w-60 {
+    width: 60%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.vh-50 {
+    height: 50vh!important;
+}
+
+@font-face {
+    font-family: Chinese_Takeaway;
+    src:
+        url('../../fonts/chinesetakeaway-webfont.woff2') format('woff2');
+        url('../fonts/chinesetakeaway-webfont.woff') format('woff');
+}

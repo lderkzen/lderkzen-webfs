@@ -1,0 +1,13 @@
+#login-container {
+    border-radius: 20px;
+    border: 1px solid #808080;
+    min-width: 300px;
+    width: 300px;
+    max-width: 300px;
+}
+
+#login-container form {
+    line-height: 1.1;
+    font-size: 14px;
+}
+

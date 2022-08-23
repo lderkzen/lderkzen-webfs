@@ -1,0 +1,26 @@
+#dish-selector-container {
+    border-right: 2px solid #0066ff;
+}
+
+#dish-selector, #order-box {
+    overflow-y: scroll;
+    font-family: "Times New Roman", serif;
+}
+
+#order-box {
+    min-height: 85%;
+    height: 85%;
+}
+
+#order-box-total {
+    min-height: 15%;
+    height: 15%;
+}
+
+#dish-selector button, #order-box button, #order-box input, #order-box-total button {
+    line-height: 1.2;
+    border-radius: 2px;
+    border: 1px solid #808080;
+    font-family: Arial, serif;
+    font-size: 13.33px;
+}
